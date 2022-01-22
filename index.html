@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="pokemons">
+        <div class="container">
+            <div class="pokemons__inner d-flex flex-column">
+                <img src="./images/pokemon_logo.png" srcset="./images/pokemon_logo.png 1x, ./images/pokemon_logo@2x.png 2x" alt="Pokemons Logo" class="pokemons__logo align-self-center mb-5 w-100">
+
+                <form class="pokemons__form d-flex flex-column align-items-center mb-5">
+                    <div class="pokemons__inputs d-flex flex-wrap justify-content-evenly w-100 gap-2">
+                        <input type="text" id="name_input" placeholder="Enter name..." class="pokemons__input form-control border border-2 border-dark w-100 mb-3">
+                        <input type="text" id="img_input" placeholder="Enter image url..." class="pokemons__input form-control border border-2 border-dark w-100 mb-3">
+                        <input type="text" id="types_input" placeholder="Enter types(, )..." class="pokemons__input form-control border border-2 border-dark w-100 mb-3">
+                        <input type="text" id="weight_input" placeholder="Enter weight..." class="pokemons__input form-control border border-2 border-dark w-100 mb-3">
+                        <input type="text" id="age_input" placeholder="Enter age..." class="pokemons__input form-control border border-2 border-dark w-100 mb-3">
+                    </div>
+                    <input type="submit" value="Add" class="pokemons__submit btn btn-light border-2 border-dark w-100">
+                </form>
+
+                <ul class="pokemons__list d-flex flex-wrap justify-content-evenly list-unstyled gap-3">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './variables';
+@import './fonts';
+@import './normalize';
+@import './general';
+
+.pokemons__logo {
+    max-width: 610px;
+}
+
+.pokemons__input {
+    border-radius: $border-radius;
+    max-width: 236px;
+}
+
+.pokemons__item {
+    max-width: 307px;
+    width: 100%;
+    border-radius: $border-radius-lg;
+}
+
+.pokemon__title, .pokemon__age, .pokemon__weight {
+    line-height: 28px;
+    font-size: $h1-font-size;
+}
+
+.pokemon__weak {
+    font-weight: 500;
+}
+
+.pokemons__submit {
+    border-radius: $border-radius;
+    max-width: 236px;
+}
+
+.pokemons__img {
+    width: 157px;
+    height: 157px;
+}
+
+.pokemon__like {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.pokemon__like i {
+    font-size: 25.5px;
+}
